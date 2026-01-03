@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ice-conscious"
+version = "0.1.0"
+description = "Cognitive domain layer for ICE: knowledge, memory, RAG, embeddings, and awareness."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Francesco Maiomascio", email = "dev@ice.ai" }
+]
+
+dependencies = [
+    "typing-extensions>=4.7",
+    "pydantic>=2.0"
+]
+
+[project.optional-dependencies]
+ml = [
+    "numpy",
+    "scikit-learn"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

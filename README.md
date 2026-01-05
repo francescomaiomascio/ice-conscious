@@ -1,90 +1,85 @@
 # ICE Conscious
 
-ICE Conscious è il **dominio cognitivo** dell’ecosistema ICE.
+[![ICE Ecosystem](https://img.shields.io/badge/ICE-Ecosystem-8FB9FF?style=flat)](#)
+[![Docs](https://img.shields.io/badge/docs-ICE%20Docs-8FB9FF?style=flat)](https://github.com/francescomaiomascio/ice-docs)
+[![Status](https://img.shields.io/badge/status-active%20development-6B7280?style=flat)](#)
+[![Language](https://img.shields.io/badge/python-3.x-111827?style=flat)](#)
+[![License](https://img.shields.io/badge/license-MIT-7A7CFF?style=flat)](#)
 
-Non è un runtime.
-Non è un orchestrator.
-Non è un backend di storage.
+ICE Conscious is the **cognitive layer** of the ICE ecosystem.
 
-ICE Conscious definisce **come il sistema pensa**, non **come esegue**.
+It models memory, knowledge, embeddings, and semantic context in order to
+support awareness, retrieval, and reasoning across intelligent systems.
 
----
-
-## Ruolo nell’ecosistema ICE
-
-ICE è composto da più livelli, ognuno con responsabilità precise:
-
-* **ice-runtime** → esecuzione, processi, sessioni, I/O
-* **ice-api** → contratti pubblici, IPC, UI, IDE
-* **ice-engine** → coordinamento operativo (agent runtime, orchestrator)
-* **ice-conscious** → *consapevolezza, conoscenza, memoria, semantica*
-
-ICE Conscious è il punto in cui:
-
-* la conoscenza prende forma
-* il contesto viene costruito
-* la rilevanza viene valutata
-* la memoria viene strutturata
-* la RAG diventa intenzionale
+ICE Conscious does not execute actions.
+It provides **meaning, continuity, and context**.
 
 ---
 
-## Struttura concettuale
+## Core Responsibilities
 
-### Knowledge
+ICE Conscious is responsible for:
 
-Rappresenta ciò che il sistema **sa**:
-
-* entità
-* relazioni
-* grafi
-* query semantiche
-* scoring di rilevanza e fiducia
-
-### Memory
-
-Rappresenta ciò che il sistema **ricorda**:
-
-* memoria episodica (eventi)
-* memoria semantica (concetti stabili)
-* memoria di lavoro (contesto attivo)
-
-### Embeddings
-
-Definisce **come il significato diventa vettore**, senza dipendere da backend concreti.
-
-### RAG
-
-Orchestra:
-
-* intento
-* costruzione del contesto
-* sessioni RAG
-* prompt semantici
-
-Senza orchestrator, senza agenti, senza I/O.
-
-### ML
-
-Contiene **logica cognitiva**, non pipeline operative:
-
-* anomaly detection
-* clustering concettuale
-* scoring e confidence
-
-### Storage
-
-Solo **contratti astratti**.
-Nessun database concreto vive qui.
+- Modeling semantic, episodic, and working memory
+- Managing knowledge graphs and domain representations
+- Generating and scoring embeddings
+- Supporting retrieval-augmented generation (RAG)
+- Providing cognitive signals to runtimes and agents
+- Preserving continuity across sessions and time
 
 ---
 
-## Principi fondamentali
+## Cognitive Scope
 
-* Domain-first, non infrastructure-first
-* Nessuna dipendenza diretta da runtime o backend
-* Tutto è testabile in isolamento
-* Tutto è pensato per essere orchestrato da altri layer
+ICE Conscious operates at the **meaning layer** of the system.
 
-ICE Conscious è ciò che rende ICE **più di un sistema esecutivo**:
-è ciò che lo rende **consapevole**.
+It does not:
+- orchestrate execution
+- manage lifecycles
+- enforce system permissions
+- expose user interfaces
+
+It does:
+- model knowledge and memory
+- interpret context and intent
+- score relevance and salience
+- support long-term awareness
+
+---
+
+## Design Principles
+
+- Separation between cognition and execution
+- Explicit memory models (semantic, episodic, working)
+- Knowledge represented as structured graphs
+- Embeddings treated as first-class artifacts
+- RAG pipelines as composable primitives
+- ML components used as signals, not authorities
+
+---
+
+## Usage
+
+ICE Conscious is not intended to run independently.
+
+It is consumed by:
+- ICE Runtime
+- ICE Engine
+- ICE AI
+- Agent and reasoning layers within the ICE ecosystem
+
+It exposes contracts and primitives used to **think**, not to act.
+
+---
+
+## Status
+
+This project is under **active development**.
+Internal APIs may evolve as cognitive models mature.
+
+---
+
+## License
+
+This project is licensed under the terms of the MIT license.
+See the `LICENSE` file for details.

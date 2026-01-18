@@ -1,18 +1,28 @@
-# ICE Consciousness (Implementation Layer)
+# ICE Consciousness
+## Continuity of Meaning in the ICE Ecosystem
 
-[![ICE Ecosystem](https://img.shields.io/badge/ICE-Ecosystem-8FB9FF?style=flat)](#)
-[![Docs](https://img.shields.io/badge/docs-ICE%20Docs-8FB9FF?style=flat)](https://github.com/francescomaiomascio/ice-docs)
-[![Status](https://img.shields.io/badge/status-active%20development-6B7280?style=flat)](#)
-[![Language](https://img.shields.io/badge/python-3.x-111827?style=flat)](#)
-[![License](https://img.shields.io/badge/license-MIT-7A7CFF?style=flat)](#)
+ICE Consciousness is the **cognitive continuity layer** of the ICE ecosystem.
 
-This repository implements the **Consciousness domain** of the ICE ecosystem.
+It is responsible for preserving **meaning over time**:
+memory, knowledge, historical causality, and semantic coherence
+across executions, decisions, and system evolution.
 
-ICE Consciousness is responsible for **continuity of meaning over time**:
-memory, knowledge, historical causality, and long-term semantic coherence
-across systems, executions, and decisions.
+ICE Consciousness does not execute actions.
+It does not authorize behavior.
+It provides **context, memory, and historical grounding**.
 
-This project provides **cognitive infrastructure**, not authority and not execution.
+---
+
+## Foundation Dependency
+
+This project derives its assumptions, invariants, and boundaries from  
+**ICE Foundation v1.0.0**.
+
+ICE Foundation defines what is valid.  
+ICE Consciousness preserves *why* things are valid over time.
+
+Any cognitive behavior that violates Foundation axioms or invariants
+invalidates ICE compliance.
 
 ---
 
@@ -20,16 +30,54 @@ This project provides **cognitive infrastructure**, not authority and not execut
 
 ICE Consciousness is a **downstream implementation domain**.
 
-- Conceptual authority is defined in **ICE Foundation**
-- Execution and enforcement are handled by **ICE Runtime / Engine**
-- ICE Consciousness supplies **memory, context, and historical grounding**
+Authority flows strictly as follows:
 
-This repository must comply with:
-- ICE Axioms
-- ICE Structural Invariants
-- Foundation boundaries (especially authority, determinism, traceability)
+**Foundation → Runtime → Engine → Intelligence → Consciousness → Interfaces**
 
-It does not extend or redefine them.
+Within this structure:
+
+- ICE Foundation defines truth and constraints
+- ICE Runtime enforces execution validity
+- ICE Engine coordinates causal structure
+- Intelligence proposes intent and reasoning
+- ICE Consciousness preserves memory and meaning
+
+ICE Consciousness does not redefine authority.
+It operates entirely within established boundaries.
+
+---
+
+## What ICE Consciousness Is
+
+ICE Consciousness is:
+
+- a **memory and knowledge substrate**
+- a **semantic continuity layer**
+- a **historical grounding system**
+- a **cognitive persistence mechanism**
+- the **explanatory backbone** of long-running behavior
+
+It exists to answer questions such as:
+
+> Why does this state exist now?  
+> What led here?  
+> What was known, assumed, or decided over time?
+
+---
+
+## What ICE Consciousness Is Not
+
+ICE Consciousness is **not**:
+
+- an execution engine
+- an orchestration layer
+- an authority system
+- an autonomous decision-maker
+- an agent controller
+- a policy enforcer
+
+It provides **signals**, never commands.  
+It preserves **context**, never control.
 
 ---
 
@@ -37,40 +85,52 @@ It does not extend or redefine them.
 
 ICE Consciousness is responsible for:
 
-- Long-term and episodic memory modeling
-- Semantic memory and knowledge representation
-- Knowledge graphs and relational context
-- Embeddings as cognitive artifacts
-- Retrieval and relevance scoring
-- Temporal continuity of decisions and state meaning
-- Historical explainability (“why this state exists now”)
+- long-term and episodic memory modeling
+- semantic memory and knowledge representation
+- knowledge graphs and relational context
+- embeddings as cognitive artifacts
+- retrieval and relevance evaluation
+- temporal continuity of decisions and state meaning
+- historical explainability and reconstruction
 
----
-
-## What ICE Consciousness Does *Not* Do
-
-ICE Consciousness does **not**:
-
-- Execute actions or workflows
-- Orchestrate systems
-- Enforce permissions or authority
-- Decide what is allowed to happen
-- Act autonomously
-
-It provides **signals and context**, never commands.
+ICE Consciousness explains *why* a system is in a given state.
+It never decides *what happens next*.
 
 ---
 
 ## Cognitive Model
 
-ICE Consciousness operates on multiple memory strata:
+ICE Consciousness operates across multiple memory strata:
 
-- **Semantic memory** — structured knowledge and meaning
-- **Episodic memory** — events, decisions, historical traces
-- **Working memory** — transient context for reasoning
-- **Derived patterns** — long-term abstractions over time
+- **Semantic memory**  
+  Structured knowledge and meaning.
 
-Machine-learning components are used as **signals**, not as authorities.
+- **Episodic memory**  
+  Events, decisions, and historical traces.
+
+- **Working memory**  
+  Transient contextual state for reasoning support.
+
+- **Derived patterns**  
+  Long-term abstractions formed over time.
+
+Machine-learning components are treated as **cognitive signals**,
+not as authorities and not as decision-makers.
+
+---
+
+## Governance and Constraints
+
+ICE Consciousness operates under strict governance:
+
+- it cannot authorize execution
+- it cannot override Runtime or Engine decisions
+- it cannot adapt implicitly
+- all cognitive changes must be traceable
+- memory must remain inspectable and attributable
+
+Governance constraints are inherited from ICE Foundation
+and are non-negotiable.
 
 ---
 
@@ -79,24 +139,28 @@ Machine-learning components are used as **signals**, not as authorities.
 ICE Consciousness is consumed by:
 
 - ICE Runtime (contextual grounding)
-- ICE Engine (reasoning support)
-- ICE AI / agents (memory and recall)
-- Observability and governance layers (historical reconstruction)
+- ICE Engine (causal and reasoning support)
+- ICE AI and agent layers (memory and recall)
+- Observability and governance systems (historical reconstruction)
 
-All interactions are constrained by Foundation-defined invariants.
-
----
-
-## Status
-
-This project is under **active development**.
-
-Interfaces, storage models, and cognitive strategies may evolve,
-but must always remain compliant with the ICE Foundation.
+All interactions are read-oriented or signal-based.
+Execution authority remains upstream.
 
 ---
 
-## License
+## Canonical Status
 
-This project is licensed under the terms of the MIT license.
-See the `LICENSE` file for details.
+ICE Consciousness is a **continuity layer**, not a control layer.
+
+If Consciousness behavior attempts to drive execution,
+authorize actions, or bypass governance,
+it is incorrect by definition.
+
+---
+
+## Notes
+
+Systems fail silently when they forget *why* they are the way they are.
+
+ICE Consciousness exists to prevent that failure,
+even when remembering becomes inconvenient.
